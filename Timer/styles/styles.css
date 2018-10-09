@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background: #ffffff;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+h1{
+  color: #000000;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#timerControl{
+    font-family: sans-serif;
+    color: #000000;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#timerControl > div{
+    padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border-radius: 3px;    
+    display: inline-block;	
+	border-style : solid;
+	border-width: thin;
+	border-color: #C0C0C0;
+}
+
+#timerControl div > span{
+    background: #ffffff;
+    display: inline-block;
+	color: #000000;
+}
+
+.timertext{
+    padding-top: 5px;
+    font-size: 16px;
+	color: #C0C0C0;
+}
